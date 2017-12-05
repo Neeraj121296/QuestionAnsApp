@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="Teacher.js"></script>
+    <script src="crud.js"></script>
+    <script src="message.js"></script>
+    <script src="Questions.js"></script>>
+    <script src="Answer.js"></script>>
+
+</head>
+
+<body>
+ 
+    <form>
+        <textarea id="quest" placeholder="What's Your Question" cols="70" rows="6"></textarea>
+        <br>
+        <textarea id="option1" placeholder="option 1"></textarea><br>
+        <textarea id="option2" placeholder="option 2"></textarea><br>
+        <textarea id="option3" placeholder="option 3"></textarea><br>
+        <textarea id="option4" placeholder="option 4"></textarea><br>
+<br>
+        <br>
+          <textarea id="answerText" placeholder="Place the Answer"></textarea><br>
+          <textarea id="timeLimit" placeholder="Enter limit to answer Question in minutes"></textarea><br>
+        <input type="Button" id="submitBt" value="Submit">
+        <input type="Button" id="saveBtn" value="save">
+         <input type="Button" id="loadBtn" value="load"><br>
+    </form>
+
+
+    <div class="Ques_table">
+
+        <table cellspacing="10">
+
+
+            <tbody id="Questions">
+
+            </tbody>
+
+        </table>
+    </div>
+</body>
+
+</html>
